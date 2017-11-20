@@ -6,13 +6,13 @@ var watch = require('gulp-watch');
 gulp.task('sass', function(){
 	return gulp.src('sass/**/*.sass')
 	.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-	.pipe(gulp.dest('css'))
+	.pipe(gulp.dest('css'));
 });
 
 // task for watch
 gulp.task('watch', function(){
 	gulp.watch('sass/**/*.sass', ['sass']);
-})
+});
 
 // task default gulp
 gulp.task('default', ['sass', 'watch']);
