@@ -17,12 +17,13 @@
   ],
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "bootstrap-sass": "^3.3.7",
-    "breakpoint-sass": "^2.7.1"
+    "breakpoint-sass": "^2.7.1",
+    "parallax.js": "^1.5.0",
+    "bootstrap-sass": "^3.3.7"
   },
   "devDependencies": {
     "font-awesome": "^4.7.0",
-    "bootstrap-sass": "^3.3.7",
-    "breakpoint-sass": "^2.7.1"
+    "breakpoint-sass": "^2.7.1",
+    "parallax.js": "^1.5.0"
   }
 }
