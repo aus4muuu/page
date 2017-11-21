@@ -3,34 +3,83 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Alfredo Kleis</title>
+		<link rel="stylesheet" type="text/css" href="css/parallax.css">
 	</head>
 	<body>
 		<header>
-			<div class="logo">
-				<a href="index.html">
-					<img src="images/logo-alfredokleis.png" alt="logo top tag">
-				</a>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Contato</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Sobre</a></li>
-				</ul>
-			</nav>
-			<ul class="social">
-				<!-- icone small logo fazer primeira li -->
-				<li> 
-					<a href="#"><i class=""></i></a>
-				</li>
-				<li>
-					<a href="#"><i class="fa fa-facebook"></i></a>
-				</li>
-			</ul>
 			
-			<h1>Alfredo Kleis</h1>
+			<!-- Navigation -->
+		    <div class="contain-to-grid sticky">
 
+			    <nav class="top-bar" data-topbar>
+			        <ul class="social-area">
+				        <li><a href="#"><i class=""></i></a></li>
+				        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			        </ul>
+
+		       		<section class="top-bar-section">
+
+				        <div class="logo-wrapper hide-for-small-only">
+					        <div class="logo">
+					            <h1>
+						            <a href="index.html">
+						                <object type="image/svg+xml" data="images/logo-alfredokleis.png" width="92" height="92">
+						                    Alfredo Kleis
+						                </object>
+						            </a>
+					            </h1>
+					        </div>
+				        </div>
+		            
+				        <!-- Left Nav Section -->
+				        <ul class="left">
+				            <li class="has-dropdown">
+					            <a href="#">Produtos</a>
+					            <ul class="dropdown">
+					                <li>
+					                	<a href="#">Tecidos para Cortina</a>
+										<ul class="sub-dropdown">
+											<li><a href="#">Corino</a></li>
+											<li><a href="#">Couro</a></li>
+											<li><a href="#">Outro</a></li>
+											<li><a href="#">Outro</a></li>
+										</ul>
+					                </li>
+									<li>
+					                	<a href="#">Tecidos para Estofados</a>
+										<ul class="sub-dropdown">
+											<li><a href="#">Corino</a></li>
+											<li><a href="#">Couro</a></li>
+											<li><a href="#">Outro</a></li>
+											<li><a href="#">Outro</a></li>
+										</ul>
+					                </li>
+					                <li><a href="#">Espumas</a></li>
+					            </ul>
+				            </li>
+				            <li class="has-dropdown">
+				              	<a href="#">Menu 5</a>
+				              	<ul class="dropdown">
+				                	<li><a href="#">First link in dropdown</a></li>
+				              	</ul>
+				            </li>
+				        </ul>
+
+				        <!-- Right Nav Section -->
+				        <ul class="right">
+				            <li><a href="blog.html">Blog</a></li>
+				            <li><a href="contato.html">Contato</a></li>
+				        </ul>
+
+		        	</section>
+		      	</nav>
+		    </div>
+			<!-- /navigation -->
+
+			<!-- Parallax Top Windown -->
+			<div class="parallax-window" data-parallax="scroll" data-image-src="images/panoramaInterior.jpg"></div>
+			<!-- /Parallax Top Windown -->
+			
 		</header>
 		<main>
 			
@@ -38,5 +87,9 @@
 		<footer>
 			
 		</footer>
+		
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/parallax/parallax.min.js"></script>
+
 	</body>
 </html>
